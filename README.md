@@ -24,3 +24,5 @@ Step 3: Run the currency-conversion-service on port 8100.
 Step 4: Run the netflix-zuul-api-gateway-server.
 
 Step 5: Open the browser and invoke the URL http://localhost:8761. It shows all the services that are registered with the Eureka naming server.
+
+Test :
