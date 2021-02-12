@@ -19,6 +19,7 @@ public class CurrencyExchangeController {
 	public ExchangeValue retrieveExchangeValue(@PathVariable String from, @PathVariable String to) // from map to USD
 																									// and to map to INR
 	{
+		// test change
 		ExchangeValue exchangeValue = repository.findByFromAndTo(from, to);
 		// setting the port
 		exchangeValue.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
